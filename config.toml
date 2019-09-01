@@ -1,0 +1,16 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "bootstrap-start"
+
+[params]
+  description = "Text about the site"
+  #images = ["logo.jpg"]
+  startPageColumns = true
+  welcomeText = "Welcome to the Plumb Mum"
+  showGoogleSearch = true
+
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
