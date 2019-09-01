@@ -2,6 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "bootstrap-start"
+publishDir = "docs"
 
 [params]
   description = "Text about the site"
