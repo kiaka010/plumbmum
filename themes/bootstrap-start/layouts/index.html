@@ -1,6 +1,7 @@
 {{ define "main" }}
 
 <h1 class="welcomeText">{{ .Site.Params.welcomeText }}</h1>
+<h2>This site is currently under maintenance</h2>
 
 {{ if .Site.Params.showGoogleSearch }}
 <form id="search-form" action="https://www.google.com/search" method="get">
@@ -13,7 +14,7 @@
         {{ range .Site.Data.links }}
             <div id="groupListEntry" class="card">
                 <div class="card-body">
-                    <h5 class="card-title groupTitle">{{ .group }}</h5>                        
+                    <h5 class="card-title groupTitle">{{ .group }}</h5>
                     <ul class="list-group list-group-flush groupListList">
                         {{ range .items }}
                             <li class="list-group-item groupListListItem"><a href="{{ .url }}" target="_self" class="groupLink"><i class="{{ .icon }}"></i>&nbsp;<span class="groupText">{{ .title }}</span></a></li>
