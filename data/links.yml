@@ -6,5 +6,6 @@
     icon: fab fa-facebook
   - title: Call 07828210472
     url: tel:07828210472
+    icon: "1"
   - title: Email
     url: mailto:test@test.com
